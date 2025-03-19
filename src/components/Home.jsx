@@ -34,7 +34,7 @@ import youtube from "../assets/youtube.png";
 import logo from "../assets/logo-removebg-preview.png";
 import mute from "../assets/mute.png"
 import unmute from "../assets/unmute.png"
-import { img } from "framer-motion/client";
+
 
 // Components
 const Services = React.lazy(() => import("./Services"));
@@ -328,6 +328,7 @@ const Home = () => {
                 className="w-[100px] h-[80px] lg:w-[130px] lg:h-[100px] object-contain"
                 src={image}
                 alt="company-images"
+                loading="lazy"
               />
             ))}
           </div>
