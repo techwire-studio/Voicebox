@@ -7,11 +7,11 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 // Image Imports
-import img1 from "../assets/galley1.png";
-import img2 from "../assets/gallery2.png";
-import img3 from "../assets/gallery3.png";
-import img4 from "../assets/gallery4.png";
-import img5 from "../assets/gallery5.png";
+import img1 from "../assets/gallery1.JPG";
+import img2 from "../assets/gallery2.JPG";
+import img3 from "../assets/gallery3.JPG";
+import img4 from "../assets/gallery4.JPG";
+import img5 from "../assets/gallery5.JPG";
 import img6 from "../assets/gallery6.JPG";
 import img7 from "../assets/gallery7.JPG";
 import img8 from "../assets/gallery8.JPG";
@@ -32,11 +32,12 @@ import img23 from "../assets/gallery23.jpg";
 
 import img24 from "../assets/gallery24.png";
 import img25 from "../assets/gallery25.png";
-
+import img26 from "../assets/Add.JPG"
 
 gsap.registerPlugin(ScrollTrigger);
 
 const images = [
+	img26,
 	img24,
 	img25,
 	img1,

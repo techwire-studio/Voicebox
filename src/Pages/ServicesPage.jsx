@@ -60,13 +60,13 @@ const ServicesPage = () => {
 			image: img4,
 			title: "Studio Booking",
 			content:
-				"Transform your ideas into compelling audio experiences with our expert podcast production services. At Taperfox Studio, we guide you through every step of the process—from brainstorming and scripting to recording, editing, and distribution. Our team ensures crisp, clear sound quality and engaging content that keeps your listeners coming back for more. We understand the Indian market’s nuances, helping you create podcasts that resonate with diverse audiences across the country.",
+				"Transform your ideas into compelling audio experiences with our expert podcast production services. At Voicebox Studio, we guide you through every step of the process—from brainstorming and scripting to recording, editing, and distribution. Our team ensures crisp, clear sound quality and engaging content that keeps your listeners coming back for more. We understand the Indian market’s nuances, helping you create podcasts that resonate with diverse audiences across the country.",
 		},
 		{
 			image: img5,
 			title: "Green Mat recording",
 			content:
-				"Transform your ideas into compelling audio experiences with our expert podcast production services. At Taperfox Studio, we guide you through every step of the process—from brainstorming and scripting to recording, editing, and distribution. Our team ensures crisp, clear sound quality and engaging content that keeps your listeners coming back for more. We understand the Indian market’s nuances, helping you create podcasts that resonate with diverse audiences across the country.",
+				"Work in progress – stay tuned for updates on this upcoming service!",
 		},
 	];
 

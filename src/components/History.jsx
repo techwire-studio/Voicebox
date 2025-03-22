@@ -11,7 +11,7 @@ const historyData = [
 		text: "Episodes",
 	},
 	{
-		number: "1500+",
+		number: "15000+",
 		text: "Recordings",
 	},
 	{

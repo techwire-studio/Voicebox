@@ -75,8 +75,8 @@ const timelineData = [
 	},
 	{
 		image: img5,
-		year: "2019-2023",
-		title: "New Multi-Million Dollar Facility Grand Opening",
+		year: "2024-2025",
+		title: "Strengthening Industry Presence with Global Brands",
 		content:
 			"New As the company moves into 2024 and beyond, it continues to build on its legacy of excellence by collaborating with some of the world's most recognized brands. With an impressive track record and a growing reputation, the team is currently working on high-profile projects for Toyota, Hyundai, KPMG, and Discovery, further reinforcing its expertise across multiple industries, including automotive, finance, and media.",
 		content2:

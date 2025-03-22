@@ -377,7 +377,7 @@ const Studio = () => {
 									loading="lazy"
 								/>
 								<p className="card-title absolute text-white font-jost z-30 text-h2-desktop bottom-12 left-6">
-									Binaural Recording
+								Voice Dubbing Studio
 								</p>
 							</div>
 						</div>
@@ -397,7 +397,7 @@ const Studio = () => {
 								loading="lazy"
 							/>
 							<p className="card-title absolute text-white font-jost z-30 text-h2-desktop w-1/2 bottom-12 left-6">
-								Electronic Recordings
+							Voice Over Recording 
 							</p>
 						</div>
 
@@ -525,7 +525,7 @@ const Studio = () => {
 							loading="lazy"
 						/>
 						<p className="absolute text-white font-jost text-h2-mobile z-20 bottom-8 left-2">
-							Binaural Recording
+						Voice Dubbing Studio
 						</p>
 					</div>
 					<div className="h-full w-1/2 flex flex-col gap-4">
@@ -550,7 +550,7 @@ const Studio = () => {
 								loading="lazy"
 							/>
 							<p className="absolute text-white font-jost text-h2-mobile z-20 bottom-8 left-2">
-								Electronic Recordings
+							Voice Over Recording
 							</p>
 						</div>
 					</div>

@@ -49,10 +49,7 @@ const StudioPage = () => {
 			image: img2,
 			title: "Mastering Studio",
 		},
-		{
-			image: img3,
-			title: "Mastering Studio",
-		},
+		
 		{
 			image: img4,
 			title: "Music Studio ",
@@ -61,10 +58,7 @@ const StudioPage = () => {
 			image: img5,
 			title: "Multi-Track Recording Studio ",
 		},
-		{
-			image: img6,
-			title: "Binaural Recording Studio",
-		},
+		
 		{
 			image: img7,
 			title: "Acoustic Recordings Studio",
