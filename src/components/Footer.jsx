@@ -253,7 +253,7 @@ const Footer = () => {
 	}, [isClient]);
 
 	return (
-		<div className="w-full py-4 lg:py-8 px-8 lg:px-16  bg-service_bg">
+		<div className="w-full py-4 lg:py-8 px-8 lg:px-10  bg-service_bg overflow-x-hidden">
 			<div className="w-full lg:flex">
 				<div className="lg:w-[30%]">
 					<div className="flex flex-col justify-center lg:justify-start items-center lg:items-start lg:mt-10">
@@ -316,8 +316,8 @@ const Footer = () => {
 						</p>
 					</div>
 				</div>
-				<div className="lg:w-[70%] ">
-					<div className="w-full grid lg:grid-cols-3 mt-10 lg:mt-0 lg:pl-20 gap-10">
+				<div className="lg:w-[70%]">
+					<div className="w-full grid lg:grid-cols-3 mt-10 lg:mt-0 lg:pl-0 gap-10">
 						{/* Div 1 */}
 						<div>
 							<p
@@ -374,7 +374,7 @@ const Footer = () => {
 								<li>Terms of Service </li>
 								<li>Refund & Cancellation Policies </li>
 								<li>Booking Terms</li>
-								<li className="flex gap-4   text-choose_bg pt-4">
+								<li className="flex gap-4   text-choose_bg pt-4 lg:text-subtext-desktop">
 									<img
 										className="w-8 h-8"
 										src={gmail}
@@ -387,7 +387,7 @@ const Footer = () => {
 							<ul
 								ref={companyItemsRef2}
 								className=" font-jost text-choose_bg space-y-4 mt-4 text-body-mobile lg:text-body-desktop font-medium">
-								<li className="flex gap-4">
+								<li className="flex gap-4 lg:text-subtext-desktop">
 									<img
 										className="w-8 h-8"
 										src={mobile}
