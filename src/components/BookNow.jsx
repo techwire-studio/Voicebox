@@ -3,17 +3,31 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from "react-router-dom";
 
-import img1 from "../assets/book1.png";
-import img2 from "../assets/book2.png";
-import img3 from "../assets/book3.png";
-import img4 from "../assets/book4.png";
-import img5 from "../assets/book5.png";
+
+// import img1 from "../assets/book1.png";
+// import img2 from "../assets/book2.png";
+// import img3 from "../assets/book3.png";
+// import img4 from "../assets/book4.png";
+// import img5 from "../assets/book5.png";
+// // import img6 from "../assets/book6.webp";
+// import img7 from "../assets/book7.png";
+// import img8 from "../assets/book8.png";
+// // import img9 from "../assets/book9.webp";
+// // import img10 from "../assets/book10.webp";
+// import img11 from "../assets/book11.png";
+
+import img1 from "../assets/book1.webp";
+import img2 from "../assets/book2.webp";
+import img3 from "../assets/book3.webp";
+import img4 from "../assets/book4.webp";
+import img5 from "../assets/book5.webp";
 // import img6 from "../assets/book6.webp";
-import img7 from "../assets/book7.png";
-import img8 from "../assets/book8.png";
+import img7 from "../assets/book7.webp";
+import img8 from "../assets/book8.webp";
 // import img9 from "../assets/book9.webp";
 // import img10 from "../assets/book10.webp";
-import img11 from "../assets/book11.png";
+import img11 from "../assets/book11.webp";
+
 // import img12 from "../assets/book12.webp";
 
 gsap.registerPlugin(ScrollTrigger);

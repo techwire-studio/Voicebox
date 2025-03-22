@@ -6,22 +6,34 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Suspense } from "react";
 
-import main1 from "../assets/history_main1.png";
-import main2 from "../assets/history_main2.png";
+import main1 from "../assets/history_main1.webp";
+import main2 from "../assets/history_main2.webp";
 import line from "../assets/line.png";
-import bg from "../assets/history_bg.png";
-import img1 from "../assets/history1.png";
-import img2 from "../assets/history2.png";
-import img3 from "../assets/history3.png";
-import img4 from "../assets/history4.png";
-import img5 from "../assets/history5.png";
+
+// <<<<<<< HEAD
+// import img1 from "../assets/history1.png";
+// import img2 from "../assets/history2.png";
+// import img3 from "../assets/history3.png";
+// import img4 from "../assets/history4.png";
+// import img5 from "../assets/history5.png";
+
+import img1 from "../assets/history1.webp";
+import img2 from "../assets/history2.webp";
+import img3 from "../assets/history3.webp";
+import img4 from "../assets/history4.webp";
+import img5 from "../assets/history5.webp";
+
 import menu from "../assets/menu.png";
-import close from "../assets/close.png";
+import close from "../assets/close.webp";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram 3.png"; // Renamed to remove space
 import twitter from "../assets/twitter 3.png"; // Renamed to remove space
 import youtube from "../assets/youtube.png";
-import logo from "../assets/logo-removebg-preview.png";
+// <<<<<<< HEAD
+// import logo from "../assets/logo-removebg-preview.png";
+
+
+import logo from "../assets/logo-removebg-preview.webp";
 
 
 const Footer = React.lazy(() => import("../components/Footer"));
@@ -75,8 +87,10 @@ const timelineData = [
 	},
 	{
 		image: img5,
+
 		year: "2024-2025",
 		title: "Strengthening Industry Presence with Global Brands",
+
 		content:
 			"New As the company moves into 2024 and beyond, it continues to build on its legacy of excellence by collaborating with some of the world's most recognized brands. With an impressive track record and a growing reputation, the team is currently working on high-profile projects for Toyota, Hyundai, KPMG, and Discovery, further reinforcing its expertise across multiple industries, including automotive, finance, and media.",
 		content2:

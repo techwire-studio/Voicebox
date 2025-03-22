@@ -7,37 +7,66 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 // Image Imports
+
+// import img1 from "../assets/gallery1.JPG";
+// import img2 from "../assets/gallery2.JPG";
+// import img3 from "../assets/gallery3.JPG";
+// import img4 from "../assets/gallery4.JPG";
+// import img5 from "../assets/gallery5.JPG";
+// import img6 from "../assets/gallery6.JPG";
+// import img7 from "../assets/gallery7.JPG";
+// import img8 from "../assets/gallery8.JPG";
+// import img9 from "../assets/gallery9.JPG";
+// import img10 from "../assets/gallery10.JPG";
+// import img11 from "../assets/gallery11.jpg";
+// import img12 from "../assets/gallery12.jpg";
+// import img13 from "../assets/gallery13.jpg";
+// import img14 from "../assets/gallery14.jpg";
+// import img15 from "../assets/gallery15.jpg";
+// import img16 from "../assets/gallery16.jpg";
+// import img17 from "../assets/gallery17.jpg";
+// import img18 from "../assets/gallery18.jpg";
+// import img19 from "../assets/gallery19.jpg";
+// import img21 from "../assets/gallery21.jpg";
+// import img22 from "../assets/gallery22.jpg";
+// import img23 from "../assets/gallery23.jpg";
+
+// import img24 from "../assets/gallery24.png";
+// import img25 from "../assets/gallery25.png";
+import img26 from "../assets/Add.JPG"
 import img1 from "../assets/gallery1.JPG";
 import img2 from "../assets/gallery2.JPG";
 import img3 from "../assets/gallery3.JPG";
-import img4 from "../assets/gallery4.JPG";
-import img5 from "../assets/gallery5.JPG";
-import img6 from "../assets/gallery6.JPG";
-import img7 from "../assets/gallery7.JPG";
-import img8 from "../assets/gallery8.JPG";
-import img9 from "../assets/gallery9.JPG";
-import img10 from "../assets/gallery10.JPG";
-import img11 from "../assets/gallery11.jpg";
-import img12 from "../assets/gallery12.jpg";
-import img13 from "../assets/gallery13.jpg";
-import img14 from "../assets/gallery14.jpg";
-import img15 from "../assets/gallery15.jpg";
-import img16 from "../assets/gallery16.jpg";
-import img17 from "../assets/gallery17.jpg";
-import img18 from "../assets/gallery18.jpg";
-import img19 from "../assets/gallery19.jpg";
-import img21 from "../assets/gallery21.jpg";
-import img22 from "../assets/gallery22.jpg";
-import img23 from "../assets/gallery23.jpg";
+import img4 from "../assets/gallery4.webp";
+import img5 from "../assets/gallery5.webp";
+import img6 from "../assets/gallery6.webp";
+import img7 from "../assets/gallery7.webp";
+import img8 from "../assets/gallery8.webp";
+import img9 from "../assets/gallery9.webp";
+import img10 from "../assets/gallery10.webp";
+import img11 from "../assets/gallery11.webp";
+import img12 from "../assets/gallery12.webp";
+import img13 from "../assets/gallery13.webp";
+import img14 from "../assets/gallery14.webp";
+import img15 from "../assets/gallery15.webp";
+import img16 from "../assets/gallery16.webp";
+import img17 from "../assets/gallery17.webp";
+import img18 from "../assets/gallery18.webp";
+import img19 from "../assets/gallery19.webp";
 
-import img24 from "../assets/gallery24.png";
-import img25 from "../assets/gallery25.png";
-import img26 from "../assets/Add.JPG"
+import img21 from "../assets/gallery21.webp";
+import img22 from "../assets/gallery22.webp";
+import img23 from "../assets/gallery23.webp";
+import img24 from "../assets/gallery24.webp";
+import img25 from "../assets/gallery25.webp";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
 const images = [
+
 	img26,
+	
 	img24,
 	img25,
 	img1,

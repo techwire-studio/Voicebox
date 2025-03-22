@@ -6,20 +6,35 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-import main from "../assets/blogpage_main.png";
-import img1 from "../assets/blog1.png";
-import img2 from "../assets/blog2.png";
-import img3 from "../assets/blog3.png";
-import img4 from "../assets/blog4.png";
-import img5 from "../assets/blog5.png";
-import img6 from "../assets/blog6.png";
+
+// import main from "../assets/blogpage_main.png";
+// import img1 from "../assets/blog1.png";
+// import img2 from "../assets/blog2.png";
+// import img3 from "../assets/blog3.png";
+// import img4 from "../assets/blog4.png";
+// import img5 from "../assets/blog5.png";
+// import img6 from "../assets/blog6.png";
+
+import main from "../assets/blogpage_main.webp";
+import img1 from "../assets/blog1.webp";
+import img2 from "../assets/blog2.webp";
+import img3 from "../assets/blog3.webp";
+import img4 from "../assets/blog4.webp";
+import img5 from "../assets/blog5.webp";
+import img6 from "../assets/blog6.webp";
+
 import menu from "../assets/menu.png";
-import close from "../assets/close.png";
+import close from "../assets/close.webp";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram 3.png";
 import twitter from "../assets/twitter 3.png";
 import youtube from "../assets/youtube.png";
-import logo from "../assets/logo-removebg-preview.png";
+// <<<<<<< HEAD
+// import logo from "../assets/logo-removebg-preview.png";
+
+
+
+import logo from "../assets/logo-removebg-preview.webp";
 
 
 const Footer = React.lazy(() => import("../components/Footer"));

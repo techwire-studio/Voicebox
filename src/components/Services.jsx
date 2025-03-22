@@ -1,9 +1,17 @@
 import React, { useRef, useEffect, useState } from "react";
-import img1 from "../assets/service1.png";
-import img2 from "../assets/service2.png";
-import img3 from "../assets/service3.png";
-import img4 from "../assets/service4.png";
-import arrow from "../assets/arrow.png";
+
+// import img1 from "../assets/service1.png";
+// import img2 from "../assets/service2.png";
+// import img3 from "../assets/service3.png";
+// import img4 from "../assets/service4.png";
+// import arrow from "../assets/arrow.png";
+
+
+import img1 from "../assets/service1.webp";
+import img2 from "../assets/service2.webp";
+import img3 from "../assets/service3.webp";
+import img4 from "../assets/service4.webp";
+import arrow from "../assets/arrow.webp";
 
 
 import gsap from "gsap";

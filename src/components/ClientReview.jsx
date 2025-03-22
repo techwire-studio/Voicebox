@@ -2,10 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import img1 from "../assets/review1.png";
-import img2 from "../assets/review2.png";
-import img3 from "../assets/review3.png";
-import ring from "../assets/ring.png";
+import img1 from "../assets/review1.webp";
+import img2 from "../assets/review2.webp";
+import img3 from "../assets/review3.webp";
+import ring from "../assets/ring.webp";
 import star from "../assets/stars.png";
 
 

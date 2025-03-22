@@ -5,16 +5,27 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
-import img1 from "../assets/studio1.png";
+import img1 from "../assets/studio1.webp";
 import img2 from "../assets/BHFO.gif";
-import img3 from "../assets/studio3.png";
-import img4 from "../assets/studio4.png";
-import img5 from "../assets/studio5.png";
-import img6 from "../assets/studio6.png";
-import img7 from "../assets/studio7.png";
-import img8 from "../assets/studio8.png";
-import img9 from "../assets/studio9.png";
-import img10 from "../assets/studio10.png";
+
+// import img3 from "../assets/studio3.png";
+// import img4 from "../assets/studio4.png";
+// import img5 from "../assets/studio5.png";
+// import img6 from "../assets/studio6.png";
+// import img7 from "../assets/studio7.png";
+// import img8 from "../assets/studio8.png";
+// import img9 from "../assets/studio9.png";
+// import img10 from "../assets/studio10.png";
+
+import img3 from "../assets/studio3.webp";
+import img4 from "../assets/studio4.webp";
+import img5 from "../assets/studio5.webp";
+import img6 from "../assets/studio6.webp";
+import img7 from "../assets/studio7.webp";
+import img8 from "../assets/studio8.webp";
+import img9 from "../assets/studio9.webp";
+import img10 from "../assets/studio10.webp";
+
 
 const Studio = () => {
 	const [isClient, setIsClient] = useState(false);
@@ -377,7 +388,9 @@ const Studio = () => {
 									loading="lazy"
 								/>
 								<p className="card-title absolute text-white font-jost z-30 text-h2-desktop bottom-12 left-6">
+
 								Voice Dubbing Studio
+
 								</p>
 							</div>
 						</div>
@@ -397,7 +410,9 @@ const Studio = () => {
 								loading="lazy"
 							/>
 							<p className="card-title absolute text-white font-jost z-30 text-h2-desktop w-1/2 bottom-12 left-6">
+
 							Voice Over Recording 
+
 							</p>
 						</div>
 
@@ -525,7 +540,9 @@ const Studio = () => {
 							loading="lazy"
 						/>
 						<p className="absolute text-white font-jost text-h2-mobile z-20 bottom-8 left-2">
+
 						Voice Dubbing Studio
+
 						</p>
 					</div>
 					<div className="h-full w-1/2 flex flex-col gap-4">
@@ -550,7 +567,9 @@ const Studio = () => {
 								loading="lazy"
 							/>
 							<p className="absolute text-white font-jost text-h2-mobile z-20 bottom-8 left-2">
+
 							Voice Over Recording
+
 							</p>
 						</div>
 					</div>

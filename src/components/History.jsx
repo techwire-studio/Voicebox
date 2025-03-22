@@ -11,7 +11,9 @@ const historyData = [
 		text: "Episodes",
 	},
 	{
+
 		number: "15000+",
+
 		text: "Recordings",
 	},
 	{
@@ -148,7 +150,7 @@ const History = () => {
 						<div
 							key={index}
 							ref={(el) => (statsRef.current[index] = el)}
-							className="border-l-2 border-service_heading text-h1-mobile lg:text-h1-desktop font-jost pb-2 pl-2">
+							className="border-l-2 border-service_heading text-h2-mobile lg:text-h1-desktop font-jost pb-2 pl-2">
 							{data.number}
 							<p className="text-subtext-mobile lg:text-subtext-[10px] font-jost text-service_heading">
 								{data.text}

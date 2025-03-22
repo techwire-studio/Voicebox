@@ -2,33 +2,33 @@ import React, { Suspense, useState, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
-import main from "../assets/profolio_main.png";
-import bg1 from "../assets/portfolio_bg1.png";
-import bg2 from "../assets/portfolio_bg2.png";
-import apple from "../assets/applemusic.png";
+import main from "../assets/portfolio_main.webp";
+import bg1 from "../assets/portfolio_bg1.webp";
+import bg2 from "../assets/portfolio_bg2.webp";
+import apple from "../assets/applemusic.webp";
 import tidal from "../assets/tidal.png";
-import amazon from "../assets/amazonmusic.png";
-import img1 from "../assets/colour1.png";
-import img2 from "../assets/colour2.png";
-import img3 from "../assets/colour3.png";
-import img4 from "../assets/colour4.png";
-import img5 from "../assets/colour5.png";
-import img6 from "../assets/colour6.png";
-import img7 from "../assets/colour7.png";
-import img8 from "../assets/colour8.png";
-import img9 from "../assets/colour9.png";
-import speaker_group from "../assets/speaker_group.png";
-import mic from "../assets/mic.png";
-import play from "../assets/play (1).png";
-import pause from "../assets/pause.png";
+import amazon from "../assets/amazonmusic.webp";
+import img1 from "../assets/colour1.webp";
+import img2 from "../assets/colour2.webp";
+import img3 from "../assets/colour3.webp";
+import img4 from "../assets/colour4.webp";
+import img5 from "../assets/colour5.webp";
+import img6 from "../assets/colour6.webp";
+import img7 from "../assets/colour7.webp";
+import img8 from "../assets/colour8.webp";
+import img9 from "../assets/colour9.webp";
+import speaker_group from "../assets/speaker_group.webp";
+import mic from "../assets/mic.webp";
+import play from "../assets/play(1).webp";
+import pause from "../assets/pause.webp";
 import sound from "../assets/mic_sound.png";
 import menu from "../assets/menu.png";
-import close from "../assets/close.png";
+import close from "../assets/close.webp";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram 3.png"; // Renamed to remove space
 import twitter from "../assets/twitter 3.png"; // Renamed to remove space
 import youtube from "../assets/youtube.png";
-import logo from "../assets/logo-removebg-preview.png";
+import logo from "../assets/logo-removebg-preview.webp";
 
 
 // Audio

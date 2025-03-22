@@ -1,8 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React, { Suspense, useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLocation, Link } from "react-router-dom";
-import main from "../assets/book_main.png";
-import blog_link from "../assets/blog_link.png";
+import main from "../assets/book_main.webp";
+import blog_link from "../assets/blog_link.webp";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram 3.png"; // Renamed to remove space
 import twitter from "../assets/twitter 3.png"; // Renamed to remove space
@@ -11,8 +12,13 @@ import location from "../assets/mdi_location.png";
 import phone from "../assets/gg_phone.png";
 import mail from "../assets/mdi_email-outline.png";
 import menu from "../assets/menu.png";
-import close from "../assets/close.png";
-import logo from "../assets/logo-removebg-preview.png";
+
+// import close from "../assets/close.png";
+// import logo from "../assets/logo-removebg-preview.png";
+
+
+import close from "../assets/close.webp";
+import logo from "../assets/logo-removebg-preview.webp";
 
 
 import gsap from "gsap";

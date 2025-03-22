@@ -8,7 +8,7 @@ import instagram from "../assets/instagram 3.png";
 import twitter from "../assets/twitter 3.png";
 import youtube from "../assets/youtube.png";
 import mail from "../assets/mail.png";
-import logo from "../assets/logo-removebg-preview.png";
+import logo from "../assets/logo-removebg-preview.webp";
 
 import gmail from "../assets/email_footer.png";
 import mobile from "../assets/phone-call_footer.png";

@@ -4,25 +4,29 @@ import { motion, AnimatePresence } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import main from "../assets/studio_main.png";
-import img1 from "../assets/studio_img1.png";
-import img2 from "../assets/studio_img2.png";
-import img3 from "../assets/studio_img3.png";
-import img4 from "../assets/studio_img4.png";
-import img5 from "../assets/studio_img5.png";
-import img6 from "../assets/studio_img6.png";
-import img7 from "../assets/studio_img7.png";
-import img8 from "../assets/studio_img8.png";
-import bottom from "../assets/studio_bottom.png";
+import main from "../assets/studio_main.webp";
+import img1 from "../assets/studio_img1.webp";
+import img2 from "../assets/studio_img2.webp";
+import img3 from "../assets/studio_img3.webp";
+import img4 from "../assets/studio_img4.webp";
+import img5 from "../assets/studio_img5.webp";
+import img6 from "../assets/studio_img6.webp";
+import img7 from "../assets/studio_img7.webp";
+import img8 from "../assets/studio_img8.webp";
+import bottom from "../assets/studio_bottom.webp";
 import play from "../assets/play.png";
 import design from "../assets/design.png";
 import menu from "../assets/menu.png";
-import close from "../assets/close.png";
+import close from "../assets/close.webp";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram 3.png"; // Renamed to remove space
 import twitter from "../assets/twitter 3.png"; // Renamed to remove space
 import youtube from "../assets/youtube.png";
-import logo from "../assets/logo-removebg-preview.png";
+// <<<<<<< HEAD
+// import logo from "../assets/logo-removebg-preview.png";
+
+
+import logo from "../assets/logo-removebg-preview.webp";
 
 
 const Footer = React.lazy(() => import("../components/Footer"));
@@ -49,7 +53,9 @@ const StudioPage = () => {
 			image: img2,
 			title: "Mastering Studio",
 		},
+
 		
+
 		{
 			image: img4,
 			title: "Music Studio ",
@@ -58,7 +64,7 @@ const StudioPage = () => {
 			image: img5,
 			title: "Multi-Track Recording Studio ",
 		},
-		
+
 		{
 			image: img7,
 			title: "Acoustic Recordings Studio",

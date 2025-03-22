@@ -7,19 +7,32 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
-import main from "../assets/servive_main.png"; // Fixed typo in filename
-import img1 from "../assets/service_page1.png";
-import img2 from "../assets/service_page2.png";
-import img3 from "../assets/service_page3.png";
-import img4 from "../assets/service_page4.png";
-import img5 from "../assets/service_page5.png";
+
+// import main from "../assets/servive_main.png"; // Fixed typo in filename
+// import img1 from "../assets/service_page1.png";
+// import img2 from "../assets/service_page2.png";
+// import img3 from "../assets/service_page3.png";
+// import img4 from "../assets/service_page4.png";
+// import img5 from "../assets/service_page5.png";
+import main from "../assets/servive_main.webp";
+import img1 from "../assets/service_page1.webp";
+import img2 from "../assets/service_page2.webp";
+import img3 from "../assets/service_page3.webp";
+import img4 from "../assets/service_page4.webp";
+import img5 from "../assets/service_page5.webp";
+
 import menu from "../assets/menu.png";
-import close from "../assets/close.png";
+import close from "../assets/close.webp";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram 3.png"; // Renamed to remove space
 import twitter from "../assets/twitter 3.png"; // Renamed to remove space
 import youtube from "../assets/youtube.png";
-import logo from "../assets/logo-removebg-preview.png";
+
+// import logo from "../assets/logo-removebg-preview.png";
+
+
+
+import logo from "../assets/logo-removebg-preview.webp";
 
 
 const Footer = React.lazy(() => import("../components/Footer"));
@@ -60,13 +73,19 @@ const ServicesPage = () => {
 			image: img4,
 			title: "Studio Booking",
 			content:
+
 				"Transform your ideas into compelling audio experiences with our expert podcast production services. At Voicebox Studio, we guide you through every step of the process—from brainstorming and scripting to recording, editing, and distribution. Our team ensures crisp, clear sound quality and engaging content that keeps your listeners coming back for more. We understand the Indian market’s nuances, helping you create podcasts that resonate with diverse audiences across the country.",
+
+
 		},
 		{
 			image: img5,
 			title: "Green Mat recording",
 			content:
 				"Work in progress – stay tuned for updates on this upcoming service!",
+
+				
+
 		},
 	];
 
