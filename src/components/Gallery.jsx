@@ -33,7 +33,7 @@ import { Pagination } from "swiper/modules";
 
 // import img24 from "../assets/gallery24.png";
 // import img25 from "../assets/gallery25.png";
-import img26 from "../assets/Add.JPG"
+import img26 from "../assets/Add.webp"
 import img1 from "../assets/gallery1.JPG";
 import img2 from "../assets/gallery2.JPG";
 import img3 from "../assets/gallery3.JPG";
